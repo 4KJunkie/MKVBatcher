@@ -4,6 +4,18 @@ Instead of re-encoding the video stream, MKVBatcher uses mkvmerge (MKVToolNix) t
 
 The application works with any video or audio codec that can exist inside an MKV container.
 
+## Requirements
+
+MKVBatcher requires MKVToolNix (mkvmerge) to be installed on your system.
+
+Download MKVToolNix here:
+https://mkvtoolnix.download/
+
+After installation, either:
+- Add mkvmerge to your system PATH
+OR
+- Provide the full path to mkvmerge.exe inside the app
+
 ## Supported input formats
 
 Container (input):
